@@ -60,6 +60,15 @@ const ProductDetail = () => {
   const productId = parseInt(id || '0', 10);
   const product = products.find(p => p.id === productId);
   
+  const handleDevisClick = () => {
+    // Format de message pour WhatsApp
+    const message = `Bonjour, je suis intéressé(e) par votre produit "${product?.name}". Pouvez-vous m'envoyer un devis ?`;
+    // Créer le lien WhatsApp avec le numéro et le message encodé
+    const whatsappLink = `https://wa.me/221779677888?text=${encodeURIComponent(message)}`;
+    // Ouvrir le lien dans un nouvel onglet
+    window.open(whatsappLink, '_blank');
+  };
+  
   if (!product) {
     return (
       <div className="flex flex-col min-h-screen">
@@ -113,7 +122,7 @@ const ProductDetail = () => {
             
             <div className="mt-8">
               <Button 
-                onClick={() => navigate('/contact')} 
+                onClick={handleDevisClick} 
                 className="bg-gold hover:bg-gold/90"
               >
                 Demander un devis

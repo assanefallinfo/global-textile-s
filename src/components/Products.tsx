@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import { cn } from "@/lib/utils";
-import { useNavigate } from 'react-router-dom';
 
 // Product data
 const products = [
@@ -43,37 +42,26 @@ const products = [
   }
 ];
 
-interface ProductsProps {
-  showHeading?: boolean;
-}
-
-const Products = ({ showHeading = true }: ProductsProps) => {
+const Products = () => {
   const [activeCategory, setActiveCategory] = useState<string>("Tout");
-  const navigate = useNavigate();
   const categories = ["Tout", ...Array.from(new Set(products.map(product => product.category)))];
   
   const filteredProducts = activeCategory === "Tout" 
     ? products 
     : products.filter(product => product.category === activeCategory);
-    
-  const handleProductClick = (productId: number) => {
-    navigate(`/produits/${productId}`);
-  };
 
   return (
     <section id="produits" className="py-20 bg-cream">
       <div className="container mx-auto px-4">
-        {showHeading && (
-          <div className="flex flex-col items-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-              Nos <span className="text-gold">Produits</span>
-            </h2>
-            <div className="w-24 h-1 bg-gold mb-6"></div>
-            <p className="text-center max-w-3xl text-navy/80">
-              Découvrez notre collection exclusive de tissus, idéale pour toutes vos créations
-            </p>
-          </div>
-        )}
+        <div className="flex flex-col items-center mb-14">
+          <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
+            Nos <span className="text-gold">Produits</span>
+          </h2>
+          <div className="w-24 h-1 bg-gold mb-6"></div>
+          <p className="text-center max-w-3xl text-navy/80">
+            Découvrez notre collection exclusive de tissus, idéale pour toutes vos créations
+          </p>
+        </div>
         
         {/* Category filter */}
         <div className="flex justify-center mb-10 overflow-x-auto pb-2">
@@ -117,10 +105,7 @@ const Products = ({ showHeading = true }: ProductsProps) => {
                 <p className="text-navy/70 mb-4">
                   {product.description}
                 </p>
-                <button 
-                  className="text-gold font-medium flex items-center hover:text-gold/80 transition-colors"
-                  onClick={() => handleProductClick(product.id)}
-                >
+                <button className="text-gold font-medium flex items-center hover:text-gold/80 transition-colors">
                   En savoir plus
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -134,8 +119,8 @@ const Products = ({ showHeading = true }: ProductsProps) => {
         {/* Call to action */}
         <div className="mt-16 text-center">
           <a 
-            onClick={() => navigate('/contact')}
-            className="inline-flex items-center px-6 py-3 bg-gold text-white rounded-md hover:bg-gold/90 transition-colors shadow-md cursor-pointer"
+            href="#contact" 
+            className="inline-flex items-center px-6 py-3 bg-gold text-white rounded-md hover:bg-gold/90 transition-colors shadow-md"
           >
             Contactez-nous pour plus d'informations
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">

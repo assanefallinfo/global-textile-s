@@ -39,7 +39,7 @@ const Navbar = () => {
             className="text-2xl font-serif font-bold text-navy cursor-pointer"
             onClick={() => navigate('/')}
           >
-            <span className="text-gold">Global</span> Textile
+            <span className="text-gold">Momo</span> Design
           </h1>
         </div>
 

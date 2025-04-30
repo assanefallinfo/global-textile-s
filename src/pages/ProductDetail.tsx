@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
+import { useToast } from "@/hooks/use-toast";
 
 // Définition des produits pour correspondre à ceux dans Products.tsx
 const products = [
@@ -55,6 +56,7 @@ const products = [
 const ProductDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { toast } = useToast();
   
   // Trouver le produit correspondant à l'ID
   const productId = parseInt(id || '0', 10);
@@ -64,9 +66,15 @@ const ProductDetail = () => {
     // Format de message pour WhatsApp
     const message = `Bonjour, je suis intéressé(e) par votre produit "${product?.name}". Pouvez-vous m'envoyer un devis ?`;
     // Créer le lien WhatsApp avec le numéro et le message encodé
-    const whatsappLink = `https://wa.me/221779677888?text=${encodeURIComponent(message)}`;
+    const whatsappLink = `https://wa.me/221781540779?text=${encodeURIComponent(message)}`;
     // Ouvrir le lien dans un nouvel onglet
     window.open(whatsappLink, '_blank');
+    
+    // Afficher un toast de confirmation
+    toast({
+      title: "Demande envoyée",
+      description: "Redirection vers WhatsApp en cours...",
+    });
   };
   
   if (!product) {

@@ -8,10 +8,10 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0 md:pr-8">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy leading-tight animate-fade-in">
-            <span className="text-gold">L'Excellence</span> du Design au Sénégal
+            <span className="text-gold">L'Excellence</span> du Tissu Brodé au Sénégal
           </h1>
           <p className="mt-6 text-lg text-navy/80 max-w-md animate-fade-in">
-            Découvrez notre collection exclusive de tissus haut de gamme pour sublimer vos créations et cérémonies.
+            Découvrez notre collection exclusive de tissus brodés haut de gamme pour sublimer vos créations et cérémonies.
           </p>
           <div className="mt-10 flex flex-wrap gap-4 animate-fade-in">
             <a 
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
             <div className="bg-gradient-to-br from-gold/30 to-navy/30 aspect-[4/3] flex items-center justify-center">
               <p className="text-xl font-serif text-navy text-center p-8">
-                Momo Design - Élégance et qualité
+                Image de tissus brodés de luxe
               </p>
             </div>
           </div>

@@ -1,19 +1,25 @@
 
 import React from 'react';
 
-const About = () => {
+interface AboutProps {
+  showHeading?: boolean;
+}
+
+const About = ({ showHeading = true }: AboutProps) => {
   return (
     <section id="à-propos" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-            À propos de <span className="text-gold">nous</span>
-          </h2>
-          <div className="w-24 h-1 bg-gold mb-6"></div>
-          <p className="text-center max-w-3xl text-navy/80">
-            Bienvenue chez Global Textile, votre spécialiste du tissu brodé haut de gamme à Dakar
-          </p>
-        </div>
+        {showHeading && (
+          <div className="flex flex-col items-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
+              À propos de <span className="text-gold">nous</span>
+            </h2>
+            <div className="w-24 h-1 bg-gold mb-6"></div>
+            <p className="text-center max-w-3xl text-navy/80">
+              Bienvenue chez Global Textile, votre spécialiste du tissu brodé haut de gamme à Dakar
+            </p>
+          </div>
+        )}
         
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="bg-cream p-8 rounded-lg shadow-md">

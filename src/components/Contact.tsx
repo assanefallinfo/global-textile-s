@@ -1,7 +1,14 @@
 
 import React from 'react';
 
-const ContactInfo = ({ icon, title, content, link = null }) => (
+interface ContactInfoProps {
+  icon: React.ReactNode;
+  title: string;
+  content: string;
+  link?: string | null;
+}
+
+const ContactInfo = ({ icon, title, content, link = null }: ContactInfoProps) => (
   <div className="flex">
     <div className="bg-gold/10 p-3 rounded-full mr-4 h-min">
       <div className="h-6 w-6 text-gold flex items-center justify-center">
@@ -21,19 +28,25 @@ const ContactInfo = ({ icon, title, content, link = null }) => (
   </div>
 );
 
-const Contact = () => {
+interface ContactProps {
+  showHeading?: boolean;
+}
+
+const Contact = ({ showHeading = true }: ContactProps) => {
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-            Nous <span className="text-gold">Contacter</span>
-          </h2>
-          <div className="w-24 h-1 bg-gold mb-6"></div>
-          <p className="text-center max-w-3xl text-navy/80">
-            Visitez notre boutique ou contactez-nous par téléphone ou WhatsApp
-          </p>
-        </div>
+        {showHeading && (
+          <div className="flex flex-col items-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
+              Nous <span className="text-gold">Contacter</span>
+            </h2>
+            <div className="w-24 h-1 bg-gold mb-6"></div>
+            <p className="text-center max-w-3xl text-navy/80">
+              Visitez notre boutique ou contactez-nous par téléphone ou WhatsApp
+            </p>
+          </div>
+        )}
         
         <div className="grid md:grid-cols-2 gap-10 items-start">
           <div className="bg-cream p-8 rounded-lg shadow-md">

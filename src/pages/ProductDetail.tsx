@@ -73,7 +73,7 @@ const ProductDetail = () => {
     return (
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="flex-grow container mx-auto px-4 py-20 mt-16">
+        <main className="flex-grow container mx-auto px-4 py-20 mt-20">
           <div className="text-center">
             <h2 className="text-2xl font-bold text-navy">Produit non trouvé</h2>
             <Button 
@@ -92,7 +92,7 @@ const ProductDetail = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-grow container mx-auto px-4 py-20 mt-16">
+      <main className="flex-grow container mx-auto px-4 py-20 mt-20">
         <Button 
           onClick={() => navigate('/produits')} 
           className="mb-6 bg-gold hover:bg-gold/90"
@@ -103,9 +103,11 @@ const ProductDetail = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-gold/10 rounded-lg flex items-center justify-center h-80 md:h-96">
-            <p className="font-serif text-navy text-center p-6">
-              Image de {product.name}
-            </p>
+            <img 
+              src="/lovable-uploads/ff4f7ce5-6e8f-46ec-968a-7ec67859a3a2.png" 
+              alt={`Image de ${product.name}`}
+              className="max-w-[70%] max-h-[70%] object-contain"
+            />
           </div>
           
           <div>

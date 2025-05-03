@@ -33,14 +33,13 @@ const Navbar = () => {
 
   return (
     <header className="fixed w-full bg-cream/95 backdrop-blur-sm z-50 shadow-sm">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center">
-          <h1 
-            className="text-2xl font-serif font-bold text-navy cursor-pointer"
-            onClick={() => navigate('/')}
-          >
-            <span className="text-gold">Global</span> Textile
-          </h1>
+      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
+          <img 
+            src="/lovable-uploads/ff4f7ce5-6e8f-46ec-968a-7ec67859a3a2.png" 
+            alt="Global Textile Logo" 
+            className="h-12 md:h-14"
+          />
         </div>
 
         {/* Desktop Navigation */}

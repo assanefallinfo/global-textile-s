@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 const Hero = () => {
   return (
-    <section id="accueil" className="min-h-screen pt-20 hero-pattern relative flex flex-col justify-center">
+    <section id="accueil" className="min-h-screen hero-pattern relative flex flex-col justify-center">
       <div className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0 md:pr-8">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy leading-tight animate-fade-in">
@@ -33,9 +33,11 @@ const Hero = () => {
           <div className="w-full aspect-square bg-navy/10 rounded-full absolute -bottom-4 -left-4"></div>
           <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
             <div className="bg-gradient-to-br from-gold/30 to-navy/30 aspect-[4/3] flex items-center justify-center">
-              <p className="text-xl font-serif text-navy text-center p-8">
-                Image de tissus brodés de luxe
-              </p>
+              <img 
+                src="/lovable-uploads/ff4f7ce5-6e8f-46ec-968a-7ec67859a3a2.png" 
+                alt="Global Textile Logo" 
+                className="max-w-[80%] max-h-[80%] object-contain"
+              />
             </div>
           </div>
         </div>

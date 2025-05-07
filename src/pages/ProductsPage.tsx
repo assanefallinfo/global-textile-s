@@ -13,7 +13,7 @@ const ProductsPage = () => {
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center mb-14">
               <h1 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-                Nos <span className="text-gold">Collections</span>
+                Nos <span className="text-gold">Articles</span>
               </h1>
               <div className="w-24 h-1 bg-gold mb-6"></div>
               <p className="text-center max-w-3xl text-navy/80">

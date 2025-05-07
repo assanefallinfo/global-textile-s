@@ -188,7 +188,7 @@ const Products = ({ showHeading = true }: ProductsProps) => {
         {showHeading && (
           <div className="flex flex-col items-center mb-14">
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-              Nos <span className="text-gold">Produits</span>
+              Nos <span className="text-gold">Articles</span>
             </h2>
             <div className="w-24 h-1 bg-gold mb-6"></div>
             <p className="text-center max-w-3xl text-navy/80">
@@ -240,7 +240,7 @@ const Products = ({ showHeading = true }: ProductsProps) => {
               </div>
               <CardContent className="p-6">
                 <span className="text-xs font-medium text-gold uppercase tracking-wider">
-                  {product.category}
+                  Article
                 </span>
                 <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">
                   {product.name}

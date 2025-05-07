@@ -22,13 +22,8 @@ const Products = ({ showHeading = true }: ProductsProps) => {
   const [activeCategory, setActiveCategory] = useState<string>("Tout");
   const navigate = useNavigate();
   
-  // Extract unique categories and prepend "Tout"
-  const categories = ["Tout", ...Array.from(new Set(products.map(product => product.category)))];
-  
-  // Filter products based on active category
-  const filteredProducts = activeCategory === "Tout" 
-    ? products 
-    : products.filter(product => product.category === activeCategory);
+  // Tous les produits seront affichés sans filtrage
+  const filteredProducts = products;
   
   const handleProductClick = (productId: number) => {
     navigate(`/produits/${productId}`);
@@ -44,10 +39,10 @@ const Products = ({ showHeading = true }: ProductsProps) => {
         {/* Section Heading */}
         <ProductHeading showHeading={showHeading} />
         
-        {/* Category Filter */}
+        {/* Filtre simplifié avec seulement "ARTICLES" */}
         <CategoryFilter 
-          categories={categories} 
-          activeCategory={activeCategory} 
+          categories={["Tout"]} 
+          activeCategory="Tout" 
           onCategoryChange={setActiveCategory} 
         />
         
@@ -56,7 +51,10 @@ const Products = ({ showHeading = true }: ProductsProps) => {
           {filteredProducts.map((product) => (
             <ProductCard 
               key={product.id} 
-              product={product as Product} 
+              product={{
+                ...product,
+                name: "ARTICLES: " + product.name
+              } as Product} 
               onClick={handleProductClick} 
             />
           ))}

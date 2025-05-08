@@ -39,12 +39,12 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
               {relatedProduct.image ? (
                 <img 
                   src={relatedProduct.image} 
-                  alt={relatedProduct.name}
+                  alt="Image du produit"
                   className="w-full h-full object-cover"
                 />
               ) : (
                 <p className="font-serif text-navy text-center p-4">
-                  Image de {relatedProduct.name}
+                  Image non disponible
                 </p>
               )}
             </div>
@@ -52,16 +52,15 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
               <span className="text-xs font-medium text-gold uppercase tracking-wider">
                 {relatedProduct.category}
               </span>
-              <h3 className="text-lg font-serif font-medium text-navy mt-2 mb-2">
-                {relatedProduct.name.replace("ARTICLES: ", "")}
-              </h3>
-              <Button
-                variant="link"
-                className="text-gold p-0 h-auto font-medium hover:text-gold/80 transition-colors"
-                onClick={() => navigate(`/produits/${relatedProduct.id}`)}
-              >
-                En savoir plus
-              </Button>
+              <div className="mt-3">
+                <Button
+                  variant="link"
+                  className="text-gold p-0 h-auto font-medium hover:text-gold/80 transition-colors"
+                  onClick={() => navigate(`/produits/${relatedProduct.id}`)}
+                >
+                  En savoir plus
+                </Button>
+              </div>
             </CardContent>
           </Card>
         ))}

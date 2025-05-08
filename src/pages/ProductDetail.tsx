@@ -25,7 +25,7 @@ const ProductDetail = () => {
   
   const handleDevisClick = () => {
     // Format de message pour WhatsApp
-    const message = `Bonjour, je suis intéressé(e) par votre produit "${product?.name}". Pouvez-vous m'envoyer un devis ?`;
+    const message = `Bonjour, je suis intéressé(e) par votre produit (ID: ${productId}). Pouvez-vous m'envoyer un devis ?`;
     // Créer le lien WhatsApp avec le numéro et le message encodé
     const whatsappLink = `https://wa.me/221779677888?text=${encodeURIComponent(message)}`;
     // Ouvrir le lien dans un nouvel onglet
@@ -54,7 +54,7 @@ const ProductDetail = () => {
         <BackButton />
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <ProductImage image={product.image} name={product.name} />
+          <ProductImage image={product.image} />
           
           <ProductInfo 
             product={product} 

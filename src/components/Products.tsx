@@ -53,7 +53,7 @@ const Products = ({ showHeading = true }: ProductsProps) => {
               key={product.id} 
               product={{
                 ...product,
-                name: "ARTICLES: " + product.name
+                name: "ARTICLES: " + product.name.replace("ARTICLES: ", "")
               } as Product} 
               onClick={handleProductClick} 
             />

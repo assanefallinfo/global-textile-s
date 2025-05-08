@@ -37,7 +37,7 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
       </div>
       <CardContent className="p-6">
         <span className="text-xs font-medium text-gold uppercase tracking-wider">
-          Article
+          ARTICLE
         </span>
         <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">
           {product.name}

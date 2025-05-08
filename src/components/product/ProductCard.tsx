@@ -40,7 +40,7 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
           ARTICLE
         </span>
         <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">
-          {product.name}
+          {product.name.replace("ARTICLES: ", "")}
         </h3>
         <p className="text-navy/70 mb-4">
           {product.description}

@@ -51,10 +51,7 @@ const Products = ({ showHeading = true }: ProductsProps) => {
           {filteredProducts.map((product) => (
             <ProductCard 
               key={product.id} 
-              product={{
-                ...product,
-                name: "ARTICLES: " + product.name.replace("ARTICLES: ", "")
-              } as Product} 
+              product={product} 
               onClick={handleProductClick} 
             />
           ))}

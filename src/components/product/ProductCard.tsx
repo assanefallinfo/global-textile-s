@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
+import { Image } from 'lucide-react';
 
 interface Product {
   id: number;
@@ -30,14 +31,17 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
         ) : (
-          <p className="font-serif text-navy text-center p-6">
-            Image de {product.name}
-          </p>
+          <div className="flex flex-col items-center justify-center h-full w-full p-6">
+            <Image className="h-12 w-12 text-navy/30 mb-2" />
+            <p className="font-serif text-navy/60 text-center">
+              Image non disponible
+            </p>
+          </div>
         )}
       </div>
       <CardContent className="p-6">
         <span className="text-xs font-medium text-gold uppercase tracking-wider">
-          ARTICLE
+          {product.category}
         </span>
         <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">
           {product.name.replace("ARTICLES: ", "")}

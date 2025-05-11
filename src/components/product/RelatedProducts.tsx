@@ -3,6 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from '@/components/ui/button';
+import { Image } from 'lucide-react';
 import { Product } from '@/types/product';
 
 interface RelatedProductsProps {
@@ -43,9 +44,12 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
                   className="w-full h-full object-cover"
                 />
               ) : (
-                <p className="font-serif text-navy text-center p-4">
-                  Image non disponible
-                </p>
+                <div className="flex flex-col items-center justify-center h-full w-full p-4">
+                  <Image className="h-8 w-8 text-navy/30 mb-1" />
+                  <p className="font-serif text-navy/60 text-center text-sm">
+                    Image non disponible
+                  </p>
+                </div>
               )}
             </div>
             <CardContent className="p-4">

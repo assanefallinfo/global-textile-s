@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Image } from 'lucide-react';
 
 interface ProductImageProps {
   image: string;
@@ -15,8 +16,9 @@ const ProductImage = ({ image }: ProductImageProps) => {
           className="max-w-full max-h-full object-contain"
         />
       ) : (
-        <div className="text-center p-6">
-          <p className="font-serif text-navy">
+        <div className="text-center p-6 flex flex-col items-center justify-center h-full">
+          <Image className="h-16 w-16 text-navy/30 mb-2" />
+          <p className="font-serif text-navy/60">
             Image non disponible
           </p>
         </div>

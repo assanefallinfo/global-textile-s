@@ -16,6 +16,14 @@ const ProductInfo = ({ product, onDevisClick }: ProductInfoProps) => {
         {product.category}
       </span>
       
+      <h3 className="text-3xl font-serif font-medium text-navy mt-4 mb-4">
+        ARTICLE
+      </h3>
+      
+      <p className="text-navy/70 mb-6">
+        ARTICLE
+      </p>
+      
       {product.manufacturer && (
         <div className="text-sm text-navy/70 mt-4 mb-4 flex items-center">
           <span className="font-medium">Fabricant:</span> 

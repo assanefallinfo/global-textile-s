@@ -136,27 +136,7 @@ const products = [
     category: "Brodé",
     image: "/lovable-uploads/ff4f7ce5-6e8f-46ec-968a-7ec67859a3a2.png"
   },
-  {
-    id: 18,
-    name: "Voiles brodés",
-    description: "Des voiles délicats avec des broderies exquises pour une touche d'élégance.",
-    category: "Voile",
-    image: ""
-  },
-  {
-    id: 19,
-    name: "Dentelles premium",
-    description: "Dentelles raffinées pour sublimer vos créations les plus élégantes.",
-    category: "Dentelle",
-    image: ""
-  },
-  {
-    id: 20,
-    name: "Tissus pour mariage",
-    description: "Collections spéciales pour rendre votre jour J inoubliable.",
-    category: "Cérémonie",
-    image: ""
-  },
+  // Articles 18, 19, 20 supprimés car ils n'ont pas d'images
   // Nouveaux produits ajoutés
   {
     id: 21,
@@ -297,4 +277,3 @@ const products = [
 ];
 
 export default products;
-

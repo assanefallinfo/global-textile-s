@@ -1,5 +1,8 @@
-// Product data for the application
-const products = [
+
+import { Product } from '@/types/product';
+
+// All Bazin products
+const bazinProducts: Product[] = [
   {
     id: 1,
     name: "Bazin turquoise",
@@ -128,15 +131,6 @@ const products = [
     image: "/lovable-uploads/005b90d9-0ce4-44a0-875c-7ca7c7b61e57.png",
     manufacturer: "Getzner"
   },
-  {
-    id: 17,
-    name: "Tissus brodés de luxe",
-    description: "Nos tissus brodés haut de gamme pour vos cérémonies spéciales.",
-    category: "Brodé",
-    image: "/lovable-uploads/ff4f7ce5-6e8f-46ec-968a-7ec67859a3a2.png"
-  },
-  // Articles 18, 19, 20 supprimés car ils n'ont pas d'images
-  // Nouveaux produits ajoutés
   {
     id: 21,
     name: "Bazin orange à motifs bleus",
@@ -275,4 +269,4 @@ const products = [
   }
 ];
 
-export default products;
+export default bazinProducts;

@@ -7,7 +7,7 @@ import BackButton from '@/components/product/BackButton';
 import ProductImage from '@/components/product/ProductImage';
 import ProductInfo from '@/components/product/ProductInfo';
 import RelatedProducts from '@/components/product/RelatedProducts';
-import { getLongDescription } from '@/components/product/ProductDescriptions';
+import { getLongDescription } from '@/data/productDescriptions';
 
 // Import des données des produits
 import products from '@/data/productData';

@@ -40,7 +40,7 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
               {relatedProduct.image ? (
                 <img 
                   src={relatedProduct.image} 
-                  alt="ARTICLE"
+                  alt={relatedProduct.name}
                   className="w-full h-full object-cover"
                 />
               ) : (
@@ -57,7 +57,7 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
                 {relatedProduct.category}
               </span>
               <h3 className="font-serif text-navy mt-2 mb-2">
-                ARTICLE
+                {relatedProduct.name}
               </h3>
               <div className="mt-3">
                 <Button

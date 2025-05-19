@@ -9,7 +9,7 @@ interface ProductInfoProps {
   onDevisClick: () => void;
 }
 
-const ProductInfo = ({ product, onDevisClick }: ProductInfoProps) => {
+const ProductInfo = ({ product, longDescription, onDevisClick }: ProductInfoProps) => {
   return (
     <div>
       <span className="text-xs font-medium text-gold uppercase tracking-wider">
@@ -17,12 +17,18 @@ const ProductInfo = ({ product, onDevisClick }: ProductInfoProps) => {
       </span>
       
       <h3 className="text-3xl font-serif font-medium text-navy mt-4 mb-4">
-        ARTICLE
+        {product.name}
       </h3>
       
       <p className="text-navy/70 mb-6">
-        ARTICLE
+        {product.description}
       </p>
+      
+      {longDescription && (
+        <div className="text-navy/70 mb-6">
+          {longDescription}
+        </div>
+      )}
       
       {product.manufacturer && (
         <div className="text-sm text-navy/70 mt-4 mb-4 flex items-center">

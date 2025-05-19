@@ -27,7 +27,7 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
         {product.image ? (
           <img 
             src={product.image} 
-            alt="ARTICLE"
+            alt={product.name}
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
         ) : (
@@ -44,10 +44,10 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
           {product.category}
         </span>
         <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">
-          ARTICLE
+          {product.name}
         </h3>
-        <p className="text-navy/70 mb-4">
-          ARTICLE
+        <p className="text-navy/70 mb-4 line-clamp-2">
+          {product.description}
         </p>
         {product.manufacturer && (
           <div className="text-xs text-navy/60 mb-2">

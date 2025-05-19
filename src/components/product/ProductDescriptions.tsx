@@ -156,6 +156,68 @@ export const productsWithLongDescriptions: ProductDescription[] = [
   {
     id: 37,
     longDescription: "Ce bazin bleu ciel à motifs floraux bruns de Global Textile offre une combinaison de couleurs à la fois douce et naturelle. Le fond bleu ciel apaisant est orné de motifs floraux et de feuilles dans des tons bruns chaleureux, créant un contraste harmonieux qui évoque le ciel et la terre. La qualité exceptionnelle du tissage assure un drapé fluide et une tenue parfaite pour des vêtements structurés. Idéal pour les cérémonies en plein air, les mariages à thème nature ou les événements où l'on recherche une élégance discrète aux couleurs inspirées par les éléments naturels."
+  },
+  
+  // Nouveaux produits Getzner
+  {
+    id: 53,
+    longDescription: "Ce tissu Getzner blanc à pois représente l'essence même de l'élégance intemporelle. Fabriqué en Autriche selon des standards de qualité exceptionnels, ce bazin 100% coton offre une texture somptueuse et un drapé impeccable. Les motifs de pois en relief créent un jeu subtil de lumière et d'ombre, révélant toute la richesse du tissu selon l'angle d'observation. Parfait pour les tenues de cérémonie, les mariages ou tout événement où l'élégance pure est recherchée, ce Getzner blanc s'adapte à tous les styles et toutes les saisons. Sa qualité exceptionnelle en fait un investissement durable qui conservera sa beauté et sa tenue au fil des lavages et des années."
+  },
+  {
+    id: 54,
+    longDescription: "Le Getzner bleu ciel à micro-motifs incarne la fraîcheur et la sophistication discrète. Importé directement d'Autriche, ce tissu 100% coton de haute qualité se distingue par sa finition impeccable et sa texture luxueuse. Les micro-motifs tissés créent un effet visuel fascinant qui apporte profondeur et caractère à cette teinte céleste apaisante. Idéal pour les cérémonies printanières et estivales, ce bazin permet de confectionner des tenues à la fois élégantes et confortables, qui capturent la lumière de façon remarquable. Sa brillance subtile et sa qualité exceptionnelle en font un choix privilégié pour des créations raffinées qui résisteront à l'épreuve du temps."
+  },
+  {
+    id: 55,
+    longDescription: "Le Getzner gris argenté géométrique est l'incarnation de l'élégance contemporaine. Ce tissu d'exception, fabriqué en Autriche par la prestigieuse maison Getzner, présente des motifs géométriques complexes qui créent un effet visuel captivant et moderne. Le fond gris argenté, à la fois sobre et lumineux, offre une polyvalence remarquable et s'adapte à toutes les occasions formelles. Parfait pour les tenues de soirée, les cérémonies importantes ou les événements professionnels prestigieux, ce bazin de qualité supérieure allie tradition et modernité dans une harmonie parfaite. Sa texture riche et son drapé élégant permettent de créer des pièces structurées au tombé impeccable."
+  },
+  {
+    id: 56,
+    longDescription: "Ce Getzner blanc à pois argentés représente le mariage parfait entre pureté et éclat. Issu du savoir-faire autrichien reconnu mondialement, ce tissu 100% coton offre une qualité exceptionnelle et une durabilité remarquable. Les pois argentés délicatement tissés dans la trame blanche créent un effet visuel à la fois discret et captivant, qui scintille subtilement à la lumière. Ce tissu de prestige est particulièrement adapté aux tenues de cérémonie, aux mariages et aux événements formels où l'on recherche une élégance intemporelle avec une touche de brillance. Sa texture somptueuse et sa finition impeccable en font un choix privilégié pour des créations qui traverseront les époques sans perdre de leur splendeur."
+  },
+  {
+    id: 57,
+    longDescription: "Le Getzner bleu pastel à motifs géométriques évoque la douceur d'un ciel printanier. Tissu d'exception fabriqué en Autriche, ce bazin 100% coton combine légèreté visuelle et qualité supérieure. Les motifs géométriques subtilement tissés créent un effet de texture qui apporte profondeur et caractère à cette teinte apaisante. Idéal pour les cérémonies en plein air, les baptêmes ou les mariages, ce tissu se prête parfaitement à la création de tenues élégantes et rafraîchissantes. Sa brillance délicate et son toucher somptueux témoignent de l'excellence de la fabrication Getzner, garantissant des créations durables qui conserveront leur beauté au fil des années."
+  },
+  {
+    id: 58,
+    longDescription: "Le Getzner blanc premium est la quintessence de l'élégance pure et raffinée. Ce tissu d'exception, fruit du savoir-faire séculaire de la maison autrichienne Getzner, présente une texture incomparable et une brillance subtile qui captent la lumière de façon remarquable. Les motifs texturés géométriques tissés dans la trame blanche créent un effet visuel sophistiqué qui se révèle pleinement sous différents angles. Destiné aux cérémonies les plus prestigieuses et aux événements où l'excellence est de mise, ce bazin de qualité supérieure permet la création de tenues d'une élégance intemporelle. Sa finition impeccable et sa durabilité exceptionnelle en font un investissement précieux pour des créations qui traverseront les générations."
+  },
+  {
+    id: 59,
+    longDescription: "Le Getzner vert lotus Super Magnum incarne vitalité et originalité. Cette pièce exceptionnelle, issue de la collection Super Magnum de Getzner, se distingue par sa teinte verte éclatante et ses motifs de lotus délicatement tissés qui créent un effet visuel harmonieux et naturel. La qualité supérieure du tissu 100% coton garantit un toucher somptueux et un drapé parfait, tandis que sa brillance remarquable capte la lumière de façon spectaculaire. Idéal pour les cérémonies estivales, les célébrations en plein air ou tout événement où l'on souhaite se démarquer avec élégance, ce tissu permet la création de tenues vibrantes et mémorables. La finition « Super Magnum » témoigne de l'excellence et du prestige de cette pièce d'exception."
+  },
+  {
+    id: 60,
+    longDescription: "Le Getzner argent diamant est un chef-d'œuvre textile qui incarne luxe et raffinement. Fabriqué en Autriche selon des standards d'excellence inégalés, ce bazin 100% coton présente des motifs diamantés qui créent un effet de relief fascinant et captent la lumière de manière spectaculaire. Sa teinte argentée, à la fois moderne et intemporelle, offre une polyvalence remarquable tout en conservant une présence distinctive. Parfait pour les cérémonies prestigieuses, les mariages ou les événements formels du soir, ce tissu d'exception permet la création de tenues somptueuses au tombé impeccable. La qualité exceptionnelle de ce Getzner garantit durabilité et maintien de l'éclat au fil du temps, faisant de chaque création un investissement précieux."
+  },
+  {
+    id: 61,
+    longDescription: "Le Getzner à trame hexagonale de la collection Super Magnum représente l'avant-garde du design textile traditionnel. Ce tissu d'exception, fabriqué en Autriche, se distingue par ses motifs hexagonaux futuristes qui créent un effet visuel moderne et structuré sur un fond bleu ciel lumineux. La qualité supérieure du coton 100% garantit une texture somptueuse et un drapé parfait, tandis que la finition Super Magnum assure une brillance exceptionnelle et une durabilité à toute épreuve. Idéal pour les cérémonies contemporaines et les événements où l'on souhaite allier tradition et modernité, ce tissu permet la création de tenues distinctives qui ne manqueront pas de faire impression. Son caractère innovant en fait un choix audacieux pour ceux qui recherchent l'excellence avec une touche d'originalité."
+  },
+  {
+    id: 62,
+    longDescription: "Le Getzner blanc nacré de la collection Prestige incarne la perfection et le raffinement absolu. Ce tissu d'exception, fabriqué en Autriche selon un savoir-faire séculaire, offre une finition nacrée unique qui lui confère des reflets irisés subtils et changeants selon la lumière. Les motifs délicatement tissés dans la trame ajoutent profondeur et caractère à ce blanc immaculé, créant un effet visuel à la fois riche et délicat. Destiné aux occasions les plus prestigieuses comme les mariages, les cérémonies religieuses importantes ou les événements officiels, ce bazin de la collection Prestige représente le summum de l'excellence textile. Sa texture incomparable, son drapé majestueux et sa brillance distinctive en font un choix privilégié pour des créations d'exception destinées à marquer les esprits."
+  },
+  {
+    id: 63,
+    longDescription: "Le Getzner beige géométrique allie sobriété et sophistication dans une harmonie parfaite. Ce tissu haut de gamme, produit par la prestigieuse maison autrichienne Getzner, se distingue par sa teinte beige intemporelle rehaussée de motifs géométriques précis et élégants. La finesse du tissage et la qualité exceptionnelle du coton 100% garantissent une texture luxueuse et un drapé impeccable qui mettent en valeur les silhouettes avec distinction. Particulièrement adapté aux cérémonies formelles, aux événements professionnels de prestige ou aux occasions où l'élégance discrète est de mise, ce bazin permet la création de tenues à la fois classiques et contemporaines. Sa polyvalence et sa noblesse en font un investissement judicieux pour des pièces qui traverseront les saisons avec grâce."
+  },
+  {
+    id: 64,
+    longDescription: "Le Getzner corail à motifs paisley de la collection Super Magnum est une célébration de couleur et de raffinement. Ce tissu d'exception, issu du savoir-faire autrichien renommé, se distingue par sa teinte corail vibrante et chaleureuse, ornée de motifs paisley ton sur ton qui créent un effet visuel riche et sophistiqué. La qualité supérieure Super Magnum assure une brillance éclatante, une texture somptueuse et un drapé parfait qui subliment chaque création. Idéal pour les cérémonies estivales, les mariages colorés ou les événements festifs où l'on souhaite faire sensation, ce bazin permet la réalisation de tenues féminines et remarquables. Son caractère à la fois traditionnel par ses motifs et contemporain par sa couleur en fait un choix audacieux et élégant pour des créations mémorables."
+  },
+  {
+    id: 65,
+    longDescription: "Le Getzner blanc à motifs mixtes représente l'apogée de la complexité textile maîtrisée. Fabriqué en Autriche selon des standards d'excellence inégalés, ce bazin 100% coton offre une expérience visuelle et tactile exceptionnelle grâce à ses motifs géométriques variés qui créent un véritable patchwork harmonieux de textures. Cette composition sophistiquée, sur fond blanc immaculé, produit un effet visuel fascinant qui se révèle différemment selon l'angle et la lumière. Parfait pour les cérémonies importantes, les mariages ou les événements où l'on recherche une élégance distinctive, ce tissu d'exception permet la création de tenues structurées au caractère unique. Sa qualité remarquable et sa richesse visuelle en font un choix privilégié pour des pièces qui allient tradition, modernité et raffinement."
+  },
+  {
+    id: 66,
+    longDescription: "Le Getzner pêche à motifs circulaires de la collection Super Magnum évoque douceur et sophistication. Ce tissu d'exception, fabriqué par la prestigieuse maison autrichienne Getzner, se distingue par sa teinte pêche pastel délicate et apaisante, parsemée de motifs circulaires ton sur ton qui créent un effet visuel subtil et élégant. La qualité supérieure Super Magnum garantit une brillance remarquable, une texture somptueuse et un drapé impeccable qui mettent en valeur chaque silhouette avec grâce. Idéal pour les cérémonies printanières, les mariages en fin d'après-midi ou les événements où l'on recherche une élégance douce et lumineuse, ce bazin permet la création de tenues féminines et raffinées. Sa teinte polyvalente et sa finition exceptionnelle en font un choix précieux pour des créations intemporelles."
+  },
+  {
+    id: 67,
+    longDescription: "Le Getzner bleu turquoise floral Super Magnum est une véritable œuvre d'art textile. Ce tissu d'exception, issu de la collection premium de la maison autrichienne Getzner, captive par sa teinte bleu turquoise vibrante et ses motifs floraux majestueux ton sur ton qui créent une dimension visuelle spectaculaire. La qualité Super Magnum assure une brillance incomparable, une texture luxueuse et un drapé parfait qui donnent vie à chaque création. Destiné aux grandes occasions et aux événements où l'on souhaite faire une impression mémorable, ce bazin permet la réalisation de tenues remarquables qui ne passeront pas inaperçues. L'harmonie entre la couleur éclatante et les motifs floraux délicats témoigne de l'excellence du savoir-faire Getzner, faisant de ce tissu un choix privilégié pour des pièces d'exception."
   }
 ];
 

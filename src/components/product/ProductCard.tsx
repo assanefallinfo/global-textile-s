@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { Image } from 'lucide-react';
+import { Image, Tag } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
 
 interface Product {
   id: number;
@@ -40,20 +41,33 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
         )}
       </div>
       <CardContent className="p-6">
-        <span className="text-xs font-medium text-gold uppercase tracking-wider">
-          {product.category}
-        </span>
+        <div className="flex items-center justify-between gap-2 mb-2">
+          <span className="text-xs font-medium text-gold uppercase tracking-wider">
+            {product.category}
+          </span>
+          
+          {product.manufacturer && (
+            <Badge variant="outline" className="text-xs bg-white">
+              {product.manufacturer.includes('Getzner') ? (
+                <span className="flex items-center gap-1">
+                  <Tag className="h-3 w-3" />
+                  {product.manufacturer}
+                </span>
+              ) : (
+                product.manufacturer
+              )}
+            </Badge>
+          )}
+        </div>
+        
         <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">
           {product.name}
         </h3>
+        
         <p className="text-navy/70 mb-4 line-clamp-2">
           {product.description}
         </p>
-        {product.manufacturer && (
-          <div className="text-xs text-navy/60 mb-2">
-            Fabricant: {product.manufacturer}
-          </div>
-        )}
+        
         <button 
           className="text-gold font-medium flex items-center hover:text-gold/80 transition-colors"
           onClick={(e) => {

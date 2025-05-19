@@ -56,17 +56,33 @@ const About = ({ showHeading = true }: AboutProps) => {
           </div>
           
           <div className="grid grid-cols-2 gap-4">
-            <div className="h-64 bg-gold/10 rounded-lg flex items-center justify-center">
-              <p className="font-serif text-navy">Image 1</p>
+            <div className="h-64 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/b791de06-5573-49c2-a1cc-f967b060280b.png" 
+                alt="Homme en tenue dorée traditionnelle" 
+                className="w-full h-full object-cover"
+              />
             </div>
-            <div className="h-64 bg-navy/10 rounded-lg flex items-center justify-center mt-6">
-              <p className="font-serif text-navy">Image 2</p>
+            <div className="h-64 rounded-lg overflow-hidden mt-6">
+              <img 
+                src="/lovable-uploads/f7cdcb38-9b08-48c6-8c56-a2315231515f.png" 
+                alt="Homme en tenue noire traditionnelle" 
+                className="w-full h-full object-cover"
+              />
             </div>
-            <div className="h-64 bg-navy/10 rounded-lg flex items-center justify-center">
-              <p className="font-serif text-navy">Image 3</p>
+            <div className="h-64 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/85225bb1-482f-469e-92d6-3ea4c0d9f429.png" 
+                alt="Homme en tenue blanche traditionnelle" 
+                className="w-full h-full object-cover"
+              />
             </div>
-            <div className="h-64 bg-gold/10 rounded-lg flex items-center justify-center mt-6">
-              <p className="font-serif text-navy">Image 4</p>
+            <div className="h-64 rounded-lg overflow-hidden mt-6">
+              <img 
+                src="/lovable-uploads/35ffdd26-28aa-4c1c-98bf-b483c82017df.png" 
+                alt="Homme dans la boutique tenant un tissu rose" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

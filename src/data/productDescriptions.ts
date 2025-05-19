@@ -1,3 +1,4 @@
+
 import { Product } from '@/types/product';
 
 interface ProductDescription {
@@ -158,6 +159,81 @@ export const productsWithLongDescriptions: ProductDescription[] = [
   {
     id: 37,
     longDescription: "Ce bazin bleu ciel à motifs floraux bruns de Global Textile offre une combinaison de couleurs à la fois douce et naturelle. Le fond bleu ciel apaisant est orné de motifs floraux et de feuilles dans des tons bruns chaleureux, créant un contraste harmonieux qui évoque le ciel et la terre. La qualité exceptionnelle du tissage assure un drapé fluide et une tenue parfaite pour des vêtements structurés. Idéal pour les cérémonies en plein air, les mariages à thème nature ou les événements où l'on recherche une élégance discrète aux couleurs inspirées par les éléments naturels."
+  },
+  // Descriptions pour les brodés (38-52) - déjà existants, je ne les modifie pas
+  
+  // Descriptions pour les nouveaux bazins pailletés (53-70)
+  {
+    id: 53,
+    longDescription: "Ce bazin pailleté jaune doré de Global Textile est l'incarnation du luxe et de l'opulence. Le tissu présente un fond jaune vibrant rehaussé par des motifs floraux délicatement brodés avec des paillettes dorées qui captent et réfléchissent magnifiquement la lumière. Chaque mouvement crée un jeu de scintillements fascinant qui attire immédiatement le regard. La finition est d'une qualité exceptionnelle, assurant que les paillettes restent fermement fixées même après plusieurs utilisations. Parfait pour les grandes cérémonies comme les mariages ou les fêtes importantes où un effet spectaculaire est recherché. Sa brillance incomparable en fait un choix idéal pour les tenues destinées à faire sensation lors d'événements prestigieux."
+  },
+  {
+    id: 54,
+    longDescription: "Le bazin pailleté beige crème de Global Textile offre une élégance intemporelle avec une touche de glamour contemporain. Sur un fond beige doux et chaleureux, des milliers de minuscules paillettes argentées ont été méticuleusement appliquées pour créer un effet scintillant délicat et raffiné. Le motif ondulant des paillettes évoque les vagues douces d'un désert de sable au soleil couchant. Ce tissu d'exception offre une brillance subtile qui n'est jamais excessive, le rendant parfaitement adapté aux cérémonies sophistiquées et aux événements formels où l'élégance discrète est de mise. Sa teinte neutre polyvalente permet de le porter en toutes saisons et de le combiner facilement avec des accessoires colorés."
+  },
+  {
+    id: 55,
+    longDescription: "Ce bazin pailleté vert anis de Global Textile apporte une fraîcheur vibrante et une énergie printanière à toute garde-robe cérémonielle. La base vert anis éclatante est parcourue de lignes argentées pailletées qui créent un motif structuré et dynamique. La disposition précise des paillettes argentées forme des tracés linéaires qui captent la lumière sous différents angles, créant un effet visuel saisissant lors des mouvements. Ce tissu associe audace contemporaine et savoir-faire traditionnel dans une combinaison parfaite. Idéal pour les célébrations en journée, les cérémonies printanières ou estivales, ou pour toute occasion où l'on souhaite apporter une touche de vitalité éclatante tout en conservant un raffinement certain."
+  },
+  {
+    id: 56,
+    longDescription: "Le bazin pailleté bleu ciel de Global Textile évoque la magie d'un ciel étoilé. Sur un fond bleu ciel lumineux et apaisant, des paillettes multicolores aux reflets irisés ont été délicatement appliquées, créant un effet visuel enchanteur qui change subtilement selon l'angle de la lumière. Cette constellation de minuscules points brillants donne l'impression d'un firmament parsemé d'étoiles, conférant au tissu une dimension presque mystique. Chaque mouvement révèle de nouvelles facettes scintillantes, ajoutant une animation constante à la tenue. Ce tissu d'exception est parfait pour les célébrations en soirée, les mariages ou les événements spéciaux où l'on souhaite captiver le regard avec une élégance céleste et poétique."
+  },
+  {
+    id: 57,
+    longDescription: "Ce bazin pailleté vert pomme de Global Textile est une célébration de la nature et de la vitalité. Le fond vert pomme éclatant est magnifiquement rehaussé par des motifs ondulants en paillettes dorées et argentées qui s'entrelacent pour créer des formes organiques évoquant la végétation luxuriante. La combinaison des paillettes dorées et argentées crée un contraste riche et dynamique qui capte la lumière de façon spectaculaire. La qualité exceptionnelle du tissu et la fixation soignée des paillettes assurent durabilité et confort malgré l'ornementation. Idéal pour les cérémonies en plein air, les célébrations estivales ou tout événement où l'on souhaite afficher une présence vibrante et naturelle tout en conservant une touche de sophistication éclatante."
+  },
+  {
+    id: 58,
+    longDescription: "Le bazin pailleté saumon de Global Textile incarne la douceur et le raffinement. Sa teinte saumon délicate, à mi-chemin entre le rose et le pêche, crée un fond chaleureux et flatteur pour la plupart des carnations. Les lignes de paillettes argentées dessinent sur ce fond des motifs fluides et organiques qui évoquent les courbes gracieuses d'une calligraphie artistique. L'éclat subtil des paillettes apporte juste la touche de brillance nécessaire sans jamais tomber dans l'excès, créant un équilibre parfait entre sophistication et discrétion. Ce tissu d'exception est idéal pour les cérémonies diurnes, les mariages printaniers ou les événements où l'on recherche une élégance douce et féminine avec une touche de glamour contemporain."
+  },
+  {
+    id: 59,
+    longDescription: "Ce bazin pailleté blanc pur de Global Textile est l'incarnation de la pureté et de l'élégance intemporelle. Le fond blanc immaculé est sublimé par un semis de paillettes argentées qui forment des motifs rayonnants rappelant les cristaux de glace. La brillance des paillettes argentées sur le blanc crée un effet lumineux et éthéré, presque irréel. La précision dans l'application des paillettes témoigne d'un savoir-faire exceptionnel et d'une attention méticuleuse aux détails. Ce tissu d'une blancheur éclatante est particulièrement adapté aux cérémonies de mariage, aux baptêmes, ou à tout événement où la symbolique de pureté est importante. Il offre également une toile parfaite pour des accessoires colorés qui se détacheront avec élégance sur ce fond immaculé et scintillant."
+  },
+  {
+    id: 60,
+    longDescription: "Le bazin pailleté violet lilas de Global Textile apporte une touche de mystère et de royauté à toute tenue cérémonielle. La teinte violet lilas profonde et envoûtante est parcourue de motifs ondulants en paillettes dorées qui créent un contraste saisissant et luxueux. Ces vagues scintillantes semblent danser sur le tissu, créant un effet de mouvement constant même lorsque le porteur est immobile. La richesse de la couleur associée à l'éclat des paillettes confère à ce tissu une présence majestueuse qui ne manquera pas d'attirer tous les regards. Idéal pour les cérémonies du soir, les événements formels ou les occasions spéciales où l'on souhaite faire une entrée remarquée. Ce bazin d'exception permet de créer des tenues qui allient profondeur chromatique et éclat lumineux dans une combinaison véritablement royale."
+  },
+  {
+    id: 61,
+    longDescription: "Ce bazin pailleté bleu électrique de Global Textile capture l'intensité et l'énergie avec une élégance contemporaine. Le fond bleu électrique vibrant est décoré de motifs harmonieux en paillettes argentées qui forment des vagues régulières parcourant l'ensemble du tissu. Ces ondulations scintillantes créent un effet d'optique fascinant qui donne vie au tissu à chaque mouvement. La brillance des paillettes argentées contraste magnifiquement avec la profondeur du bleu électrique, créant un jeu de lumière captivant. Ce tissu spectaculaire est idéal pour les cérémonies importantes, les événements du soir ou les occasions où l'on souhaite faire sensation avec une tenue moderne et dynamique. Sa couleur énergisante et sa finition luxueuse en font un choix parfait pour ceux qui aiment allier audace chromatique et raffinement."
+  },
+  {
+    id: 62,
+    longDescription: "Le bazin pailleté gris argenté de Global Textile incarne l'élégance urbaine et contemporaine. Son fond gris anthracite profond est entièrement recouvert de minuscules paillettes argentées qui créent un effet métallique sophistiqué évoquant la surface de l'eau sous un clair de lune. La distribution uniforme des paillettes assure un scintillement constant et harmonieux, quelle que soit la perspective. Ce tissu d'exception offre une alternative moderne et raffinée aux tissus traditionnels plus colorés, tout en conservant un impact visuel saisissant grâce à son effet métallisé. Particulièrement adapté aux cérémonies du soir, aux événements formels en milieu urbain ou aux occasions où l'on recherche une élégance contemporaine avec une touche de glamour discret. Ce bazin permet de créer des tenues qui allient sobriété chromatique et richesse visuelle dans un équilibre parfait."
+  },
+  {
+    id: 63,
+    longDescription: "Ce bazin pailleté marron chocolat de Global Textile offre une richesse et une chaleur incomparables. La teinte marron chocolat profonde et luxueuse est rehaussée par des arcs réguliers de paillettes argentées qui créent un motif structuré et élégant sur toute la surface du tissu. Ce contraste entre le fond chaleureux et les lignes scintillantes confère au tissu une dimension sophistiquée et une présence remarquable. La précision du placement des paillettes témoigne d'un savoir-faire exceptionnel et d'une attention méticuleuse aux détails. Ce tissu d'exception est idéal pour les cérémonies automnales ou hivernales, les événements du soir où l'ambiance feutrée est de mise, ou toute occasion où l'on souhaite projeter une image d'élégance classique et intemporelle avec une touche de modernité brillante."
+  },
+  {
+    id: 64,
+    longDescription: "Le bazin pailleté vert prairie de Global Textile célèbre la vivacité et l'opulence naturelle. Son fond vert prairie éclatant est magnifiquement décoré de motifs complexes en paillettes dorées et argentées qui s'entrecroisent pour créer des effets de texture luxueux. La combinaison des paillettes dorées et argentées apporte une richesse visuelle et une profondeur exceptionnelles au tissu, chaque angle de lumière révélant de nouvelles facettes brillantes. La qualité du tissage de base et la fixation précise des paillettes assurent un drapé élégant malgré la richesse de l'ornementation. Ce tissu somptueux est parfait pour les cérémonies importantes, les événements prestigieux ou les occasions où l'on souhaite afficher une présence remarquable et festive. Sa couleur vibrante associée au scintillement des paillettes en fait un choix idéal pour créer des tenues qui ne passeront pas inaperçues."
+  },
+  {
+    id: 65,
+    longDescription: "Ce bazin pailleté gris avec broderies florales de Global Textile représente le summum du raffinement et de l'artisanat textile. Sur un fond gris doux et élégant, des motifs floraux complexes ont été délicatement brodés en fil argenté, puis rehaussés de paillettes stratégiquement placées pour accentuer certains détails des fleurs et des feuilles. Cette technique mixte de broderie et de paillettes crée un effet tridimensionnel fascinant qui donne vie au tissu. La sophistication des motifs et la subtilité des détails témoignent d'un savoir-faire exceptionnel et d'une attention méticuleuse à chaque aspect de la création. Ce tissu d'exception est idéal pour les cérémonies formelles, les mariages élégants ou les événements où l'on recherche une élégance discrète mais indéniablement luxueuse. Il permet de créer des tenues qui allient tradition artisanale et esthétique contemporaine dans un équilibre parfait."
+  },
+  {
+    id: 66,
+    longDescription: "Le bazin pailleté turquoise de Global Textile capture la magie des eaux tropicales avec une élégance contemporaine. Son fond turquoise vibrant est décoré de motifs fluides en paillettes dorées et argentées qui s'entrelacent pour créer l'effet d'une eau scintillante sous le soleil. Les courbes organiques formées par les paillettes évoquent le mouvement des vagues et des courants marins, donnant une impression de fluidité et de mouvement constant au tissu. La brillance des paillettes contraste magnifiquement avec la profondeur du turquoise, créant un jeu de lumière fascinant qui change selon l'angle et l'intensité de l'éclairage. Ce tissu spectaculaire est idéal pour les cérémonies estivales, les événements en bord de mer ou les occasions où l'on souhaite apporter une touche de fraîcheur éclatante. Son caractère à la fois apaisant et dynamique en fait un choix parfait pour des tenues destinées à marquer les esprits."
+  },
+  {
+    id: 67,
+    longDescription: "Ce bazin pailleté or pur de Global Textile est l'incarnation même de l'opulence et du luxe. Le tissu présente un fond doré lumineux entièrement recouvert de fines paillettes dorées ton sur ton, créant un effet monochrome d'une richesse incomparable. Cette approche ton sur ton, où le fond et les paillettes partagent la même teinte dorée mais avec des finitions différentes, confère au tissu une profondeur et une dimension exceptionnelles tout en restant dans une harmonie parfaite. Chaque mouvement révèle de nouvelles facettes brillantes, donnant l'impression que le tissu est composé d'or liquide. La qualité exceptionnelle du bazin de base assure un drapé élégant malgré la richesse de l'ornementation. Ce tissu somptueux est idéal pour les cérémonies prestigieuses, les mariages luxueux ou les événements où l'on souhaite projeter une image d'opulence et de succès sans compromis."
+  },
+  {
+    id: 68,
+    longDescription: "Le bazin pailleté bleu royal de Global Textile incarne la noblesse et la splendeur avec une touche contemporaine. Son fond bleu royal intense est magnifiquement rehaussé par des motifs en arcs concentriques réalisés en paillettes argentées, créant un effet d'ondulations scintillantes qui parcourent l'ensemble du tissu. Ces vagues régulières de lumière semblent animer le tissu, lui conférant une dimension dynamique même lorsqu'il est statique. Le contraste saisissant entre le bleu profond et l'éclat argenté des paillettes crée un effet visuel spectaculaire qui capte immédiatement l'attention. Ce tissu d'exception est parfaitement adapté aux cérémonies formelles, aux événements du soir ou aux occasions où l'on souhaite faire une entrée remarquée avec une tenue à la fois classique et spectaculaire. Sa teinte intemporelle associée à la modernité des motifs en fait un choix idéal pour des créations qui traverseront les époques."
+  },
+  {
+    id: 69,
+    longDescription: "Ce bazin pailleté fuchsia éclatant de Global Textile est une véritable célébration de la joie et de la féminité. Son fond fuchsia vibrant est généreusement parsemé de paillettes multicolores qui créent un effet kaléidoscopique fascinant lorsque la lumière les frappe. Cette explosion de couleurs scintillantes sur la base déjà intense du fuchsia confère au tissu une énergie incomparable et une présence qui ne peut être ignorée. Les paillettes, aux reflets argentés, dorés et irisés, sont disposées selon des motifs géométriques modernes qui ajoutent structure et sophistication à cette composition audacieuse. Ce tissu spectaculaire est idéal pour les cérémonies festives, les célébrations importantes ou les événements où l'expression de la joie et de l'exubérance est de mise. Il permet de créer des tenues qui rayonnent d'énergie positive et qui incarnent l'esprit de fête dans toute sa splendeur."
+  },
+  {
+    id: 70,
+    longDescription: "Le bazin pailleté rose poudré de Global Textile offre une douceur féminine avec une touche de glamour discret. La base rose poudré, délicate et romantique, est sublimée par une multitude de fines paillettes irisées qui créent un effet lumineux subtil mais enchanteur. Ces paillettes aux reflets changeants captent la lumière de façon différente selon l'angle, évoquant les douces nuances d'un ciel à l'aube. La distribution équilibrée des paillettes assure un scintillement harmonieux qui n'est jamais excessif, maintenant l'élégance discrète qui caractérise ce tissu. Cette combinaison parfaite entre la tendresse du rose poudré et l'éclat délicat des paillettes irisées rend ce tissu idéal pour les cérémonies romantiques, les mariages printaniers ou les événements où l'on souhaite projeter une image de féminité raffinée et de douceur sophistiquée. Il permet de créer des tenues qui allient grâce intemporelle et touche contemporaine dans un équilibre parfait."
   }
 ];
 

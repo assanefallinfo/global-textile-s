@@ -138,6 +138,151 @@ const globalTextileProducts: Product[] = [
     category: "Bazin",
     image: "/lovable-uploads/b7d3305e-fcf0-4c4f-961d-baa3df5d551c.png",
     manufacturer: "Global Textile"
+  },
+  // Nouveaux produits de bazin pailleté
+  {
+    id: 53,
+    name: "Bazin pailleté jaune doré",
+    description: "Bazin jaune doré avec motifs floraux scintillants et finitions luxueuses en paillettes dorées.",
+    category: "Bazin",
+    image: "/lovable-uploads/9ebc5fa4-a61c-4001-9d63-8e1df513fc1c.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 54,
+    name: "Bazin pailleté beige crème",
+    description: "Bazin beige crème avec délicates paillettes argentées créant un effet scintillant et raffiné.",
+    category: "Bazin",
+    image: "/lovable-uploads/a35f80ac-7a0f-435e-8926-13d043cbe909.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 55,
+    name: "Bazin pailleté vert anis",
+    description: "Bazin vert anis avec motifs linéaires en paillettes argentées, apportant fraîcheur et éclat.",
+    category: "Bazin",
+    image: "/lovable-uploads/d4d2a9c6-6199-4dcf-9c03-5560ed8fa1fe.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 56,
+    name: "Bazin pailleté bleu ciel",
+    description: "Bazin bleu ciel parsemé de paillettes multicolores créant un effet ciel étoilé chatoyant.",
+    category: "Bazin",
+    image: "/lovable-uploads/ef154f5f-378b-44a4-95dd-8f5c918c90ad.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 57,
+    name: "Bazin pailleté vert pomme",
+    description: "Bazin vert pomme lumineux avec motifs ondulants en paillettes dorées et argentées.",
+    category: "Bazin",
+    image: "/lovable-uploads/da17d90e-d5e6-4d87-87f5-911d5cd10d89.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 58,
+    name: "Bazin pailleté saumon",
+    description: "Bazin couleur saumon délicat avec lignes de paillettes argentées formant des motifs élégants.",
+    category: "Bazin",
+    image: "/lovable-uploads/1880032c-3dd1-40ab-88ad-f0182c4ced03.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 59,
+    name: "Bazin pailleté blanc pur",
+    description: "Bazin blanc immaculé avec paillettes argentées, créant un effet de pureté et d'élégance intemporelle.",
+    category: "Bazin",
+    image: "/lovable-uploads/7957bddc-e73e-44fc-ad5d-6c511aeb249c.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 60,
+    name: "Bazin pailleté violet lilas",
+    description: "Bazin violet lilas avec motifs ondulants et paillettes dorées créant un effet royal et mystique.",
+    category: "Bazin",
+    image: "/lovable-uploads/5b76b832-6957-49c9-b806-28ee0cd0c9c9.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 61,
+    name: "Bazin pailleté bleu électrique",
+    description: "Bazin bleu électrique avec motifs harmonieux en paillettes argentées formant des vagues scintillantes.",
+    category: "Bazin",
+    image: "/lovable-uploads/3dd2a6d9-bd31-472c-9fe6-17b7c75a7226.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 62,
+    name: "Bazin pailleté gris argenté",
+    description: "Bazin gris anthracite avec paillettes argentées créant un effet métallique sophistiqué et moderne.",
+    category: "Bazin",
+    image: "/lovable-uploads/109799a8-709e-449d-a964-323d679b53b1.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 63,
+    name: "Bazin pailleté marron chocolat",
+    description: "Bazin marron chocolat avec motifs en arcs pailletés argentés, une combinaison riche et élégante.",
+    category: "Bazin",
+    image: "/lovable-uploads/2b35b21e-ee20-4652-9595-1194a429f7cf.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 64,
+    name: "Bazin pailleté vert prairie",
+    description: "Bazin vert prairie avec motifs en paillettes dorées et argentées créant des effets de texture luxueux.",
+    category: "Bazin",
+    image: "/lovable-uploads/12ab4b7b-b359-4ef0-a773-b731624bd315.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 65,
+    name: "Bazin pailleté gris brodé",
+    description: "Bazin gris avec broderies florales argentées et détails pailletés pour un raffinement exceptionnel.",
+    category: "Bazin",
+    image: "/lovable-uploads/f55f37c4-64c0-4875-b7c9-ab3e239e4833.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 66,
+    name: "Bazin pailleté turquoise",
+    description: "Bazin turquoise avec motifs pailletés dorés et argentés créant des effets d'eau scintillante.",
+    category: "Bazin",
+    image: "/lovable-uploads/6729ecb4-4127-416f-a8ee-9a7641be9f7d.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 67,
+    name: "Bazin pailleté or pur",
+    description: "Bazin doré avec paillettes dorées ton sur ton créant un effet monochrome luxueux et éclatant.",
+    category: "Bazin",
+    image: "/lovable-uploads/38f86b52-915b-420f-bbff-82e229c65950.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 68,
+    name: "Bazin pailleté bleu royal",
+    description: "Bazin bleu royal avec motifs en arcs pailletés argentés créant un effet d'ondulations scintillantes.",
+    category: "Bazin",
+    image: "/lovable-uploads/6d774cd4-c87e-44fc-ad5d-6c511aeb249c.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 69,
+    name: "Bazin pailleté fuchsia",
+    description: "Bazin fuchsia éclatant avec paillettes multicolores créant un effet festif et vibrant pour vos tenues de cérémonie.",
+    category: "Bazin",
+    image: "/lovable-uploads/f2f54c1a-d104-45f3-b855-53753fa68fde.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 70,
+    name: "Bazin pailleté rose poudré",
+    description: "Bazin rose poudré avec fines paillettes irisées créant un effet délicat et lumineux pour vos tenues féminines.",
+    category: "Bazin",
+    image: "/lovable-uploads/a727afe6-2b8d-4d1f-ae8b-c0047a72e61a.png",
+    manufacturer: "Global Textile"
   }
 ];
 

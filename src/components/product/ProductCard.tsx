@@ -28,7 +28,7 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
         {product.image ? (
           <img 
             src={product.image} 
-            alt={product.name}
+            alt="Article"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
         ) : (
@@ -61,11 +61,11 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
         </div>
         
         <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">
-          {product.name}
+          Article
         </h3>
         
         <p className="text-navy/70 mb-4 line-clamp-2">
-          {product.description}
+          Article
         </p>
         
         <button 

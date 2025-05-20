@@ -28,18 +28,18 @@ const ProductInfo = ({ product, longDescription, onDevisClick }: ProductInfoProp
       </div>
       
       <h3 className="text-3xl font-serif font-medium text-navy mt-2 mb-4">
-        {product.name}
+        Article
       </h3>
       
       <p className="text-navy/70 mb-6">
-        {product.description}
+        Article
       </p>
       
       {longDescription && (
         <div className="text-navy/70 mb-6 space-y-4">
           <h4 className="text-lg font-medium text-navy">Détails du produit</h4>
           <div className="bg-cream/50 p-4 rounded-md border border-cream">
-            {longDescription}
+            Article
           </div>
         </div>
       )}

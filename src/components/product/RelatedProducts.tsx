@@ -26,7 +26,7 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
   return (
     <div className="mt-16">
       <h2 className="text-2xl font-serif font-medium text-navy mb-6">
-        Produits similaires
+        Articles similaires
       </h2>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -40,7 +40,7 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
               {relatedProduct.image ? (
                 <img 
                   src={relatedProduct.image} 
-                  alt={relatedProduct.name}
+                  alt="Article"
                   className="w-full h-full object-cover"
                 />
               ) : (
@@ -57,7 +57,7 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
                 {relatedProduct.category}
               </span>
               <h3 className="font-serif text-navy mt-2 mb-2">
-                {relatedProduct.name}
+                Article
               </h3>
               <div className="mt-3">
                 <Button

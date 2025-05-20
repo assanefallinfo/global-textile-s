@@ -44,6 +44,9 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
           <span className="text-xs font-medium text-gold uppercase tracking-wider">
             Article
           </span>
+          <span className="text-xs font-medium text-navy uppercase">
+            #{product.id.toString().padStart(4, '0')}
+          </span>
         </div>
         
         <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">

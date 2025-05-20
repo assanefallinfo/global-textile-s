@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { cn } from "@/lib/utils";
+import { cn } from '@/lib/utils';
 
 interface CategoryFilterProps {
   categories: string[];
@@ -10,18 +10,21 @@ interface CategoryFilterProps {
 
 const CategoryFilter = ({ categories, activeCategory, onCategoryChange }: CategoryFilterProps) => {
   return (
-    <div className="flex justify-center mb-10 overflow-x-auto pb-2">
-      <div className="flex space-x-2 md:space-x-4">
+    <div className="mb-12 flex flex-wrap items-center justify-center gap-2">
+      {categories.map((category) => (
         <button
-          onClick={() => onCategoryChange("Tout")}
+          key={category}
           className={cn(
-            "px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap",
-            "bg-gold text-white shadow-md"
+            "px-4 py-2 rounded-full text-sm font-medium transition-all",
+            activeCategory === category 
+              ? "bg-gold text-white" 
+              : "bg-gold/10 text-navy hover:bg-gold/20"
           )}
+          onClick={() => onCategoryChange(category)}
         >
-          ARTICLES
+          {category}
         </button>
-      </div>
+      ))}
     </div>
   );
 };

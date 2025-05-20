@@ -1,133 +1,166 @@
 
 import { Product } from '@/types/product';
 
-// All Brodé products
+// Produits brodés et décorés avec des sequins/paillettes
 const brodeProducts: Product[] = [
   {
-    id: 17,
-    name: "Tissus brodés de luxe",
-    description: "Nos tissus brodés haut de gamme pour vos cérémonies spéciales.",
+    id: 71,
+    name: "Bazin brodé fuchsia à motifs géométriques",
+    description: "Bazin fuchsia éclatant décoré de motifs géométriques et ondulés en paillettes argentées et dorées.",
     category: "Brodé",
-    image: "/lovable-uploads/ff4f7ce5-6e8f-46ec-968a-7ec67859a3a2.png"
-  },
-  {
-    id: 38,
-    name: "Broderie florale violette",
-    description: "Magnifique tissu brodé violet avec motifs floraux délicats, idéal pour vos tenues de cérémonie.",
-    category: "Brodé",
-    image: "/lovable-uploads/6f738d53-78a3-427e-a343-9272d5e1dd26.png",
+    image: "/lovable-uploads/5cf11872-0c74-4d72-b88e-9225db41d141.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 39,
-    name: "Broderie rose fuchsia",
-    description: "Tissu brodé rose fuchsia avec motifs ajourés délicats, parfait pour des tenues féminines et élégantes.",
+    id: 72,
+    name: "Bazin brodé vert pomme à paillettes",
+    description: "Bazin vert pomme lumineux orné de motifs élaborés en paillettes dorées et argentées créant un effet de texture luxueux.",
     category: "Brodé",
-    image: "/lovable-uploads/ad99fd28-5586-48c5-ac97-84c1ebd0b307.png",
+    image: "/lovable-uploads/9e49c42b-d1fd-4745-9187-d0c66e9e8b71.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 40,
-    name: "Broderie blanche raffinée",
-    description: "Tissu brodé blanc immaculé avec motifs floraux ajourés, symbole d'élégance et de pureté.",
+    id: 73,
+    name: "Bazin brodé gris anthracite à paillettes",
+    description: "Bazin gris anthracite entièrement recouvert de paillettes argentées créant un effet métallique sophistiqué.",
     category: "Brodé",
-    image: "/lovable-uploads/1a8a82f7-65e8-4c2c-be6b-b04978d87105.png",
+    image: "/lovable-uploads/70441bcd-12c0-40c6-8f1f-dc5c359216fe.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 41,
-    name: "Broderie rose pâle",
-    description: "Tissu brodé rose pâle avec motifs délicats et aérés, idéal pour les cérémonies et événements spéciaux.",
+    id: 74,
+    name: "Bazin brodé noir à motifs floraux",
+    description: "Bazin noir élégant avec broderies florales et géométriques en fils dorés et paillettes multicolores.",
     category: "Brodé",
-    image: "/lovable-uploads/64f912a8-d239-4c54-8045-ef6fa7eaa735.png",
+    image: "/lovable-uploads/3c8ace22-3fc0-4e8b-805b-ed5fa6883a9c.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 42,
-    name: "Broderie bleu ciel",
-    description: "Tissu brodé bleu ciel avec motifs ajourés, apportant fraîcheur et légèreté à vos créations.",
+    id: 75,
+    name: "Bazin brodé vert émeraude à motifs multicolores",
+    description: "Bazin vert émeraude richement décoré de motifs floraux en broderies multicolores et paillettes dorées.",
     category: "Brodé",
-    image: "/lovable-uploads/0d912a29-6266-4a5f-943d-1d86c0243725.png",
+    image: "/lovable-uploads/f17618cb-b6c5-4d67-8f13-f0f63894e72e.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 43,
-    name: "Broderie jaune soleil",
-    description: "Tissu brodé jaune lumineux avec motifs floraux ajourés, idéal pour illuminer vos tenues de fête.",
+    id: 76,
+    name: "Bazin brodé vert forêt à motifs dorés",
+    description: "Bazin vert forêt orné de broderies dorées et argentées créant des motifs organiques élégants.",
     category: "Brodé",
-    image: "/lovable-uploads/e8da5c97-5fb1-41ff-b977-9b125a1141f9.png",
+    image: "/lovable-uploads/59237a66-25ec-4d60-bc8c-d1eecfb52ffc.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 44,
-    name: "Broderie menthe fraîche",
-    description: "Tissu brodé vert menthe avec motifs ajourés délicats, pour des tenues pleines de fraîcheur.",
+    id: 77,
+    name: "Bazin brodé orange vif à motifs dorés",
+    description: "Bazin orange vif décoré de motifs ondulés et floraux en broderies dorées et paillettes scintillantes.",
     category: "Brodé",
-    image: "/lovable-uploads/38dda12d-3c0a-4eac-8ac2-cf00a8edd390.png",
+    image: "/lovable-uploads/9ba8259e-d00a-4fea-8461-3347cc3b7818.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 45,
-    name: "Broderie bleue royale",
-    description: "Tissu brodé bleu royal avec motifs floraux blancs, une touche d'élégance pour vos tenues de cérémonie.",
+    id: 78,
+    name: "Bazin brodé beige à paillettes irisées",
+    description: "Bazin beige élégant orné de lignes ondulantes en paillettes irisées créant un effet chatoyant et sophistiqué.",
     category: "Brodé",
-    image: "/lovable-uploads/626d9ac1-e181-48b9-aa2c-b44240058584.png",
+    image: "/lovable-uploads/e5d3fcbf-2e8c-4cc2-a7c7-e33330362140.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 46,
-    name: "Broderie violette intense",
-    description: "Tissu brodé violet profond avec motifs floraux blancs, idéal pour des tenues de prestige et occasions spéciales.",
+    id: 79,
+    name: "Bazin brodé rouge vif à motifs étoilés",
+    description: "Bazin rouge éclatant décoré de motifs d'étoiles et de lignes ondulantes en broderies argentées et paillettes.",
     category: "Brodé",
-    image: "/lovable-uploads/9d01c22c-2c1f-4153-87e0-7a66c5c80b1d.png",
+    image: "/lovable-uploads/f6d7bb43-4ab5-474d-897f-e6bfd1bf222a.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 47,
-    name: "Broderie marguerites blanches",
-    description: "Tissu brodé noir avec motifs de marguerites blanches, pour un contraste saisissant et élégant.",
+    id: 80,
+    name: "Bazin brodé rose fuschia à motifs dorés",
+    description: "Bazin rose fuschia orné de broderies dorées et paillettes multicolores créant des motifs ondulants élaborés.",
     category: "Brodé",
-    image: "/lovable-uploads/cc160e8c-a7f3-4a2c-8659-c13c0a057c0a.png",
+    image: "/lovable-uploads/fe29747b-bef6-4a06-bef6-900c9960d811.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 48,
-    name: "Broderie turquoise daisy",
-    description: "Tissu brodé turquoise avec motif de marguerites blanches, une combinaison fraîche et estivale.",
+    id: 81,
+    name: "Bazin brodé bleu ciel à paillettes argentées",
+    description: "Bazin bleu ciel délicat entièrement recouvert de minuscules paillettes argentées créant un effet céleste scintillant.",
     category: "Brodé",
-    image: "/lovable-uploads/ed51b18c-d943-42fa-bd91-da9f5484e2f8.png",
+    image: "/lovable-uploads/7cf47ca7-39a4-431c-94f9-460a5be012a0.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 49,
-    name: "Broderie verte émeraude",
-    description: "Tissu brodé vert émeraude avec motifs blancs ovales, une création unique et raffinée.",
+    id: 82,
+    name: "Bazin brodé noir à lignes argentées",
+    description: "Bazin noir sophistiqué avec motifs géométriques précis en broderies argentées formant un réseau élégant de lignes.",
     category: "Brodé",
-    image: "/lovable-uploads/e5ad9c0e-04f8-4033-93ba-aab199b6f01e.png",
+    image: "/lovable-uploads/a21edda7-1b6e-4d01-a60e-7d8fcbd714cd.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 50,
-    name: "Broderie fleurie bleue",
-    description: "Tissu brodé bleu avec motif floral blanc complexe, idéal pour des créations élégantes et originales.",
+    id: 83,
+    name: "Bazin brodé jaune vif à motifs multicolores",
+    description: "Bazin jaune lumineux richement orné de broderies multicolores en motifs floraux et feuilles stylisées.",
     category: "Brodé",
-    image: "/lovable-uploads/2cb82fa9-512c-4db1-8b21-bfd8f1c11285.png",
+    image: "/lovable-uploads/4cae993d-7e9e-4028-87d4-929f7558a9f9.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 51,
-    name: "Broderie rouge passion",
-    description: "Tissu brodé rouge vif avec motifs floraux blancs, pour des tenues festives et passionnées.",
+    id: 84,
+    name: "Bazin brodé beige doré à paillettes",
+    description: "Bazin beige doré avec délicates paillettes créant un effet satiné et luxueux pour des tenues élégantes.",
     category: "Brodé",
-    image: "/lovable-uploads/3e6c2945-8e2f-44b0-9de1-750a82140ed0.png",
+    image: "/lovable-uploads/e897d7a8-1842-44d7-a1ad-b332466f8205.png",
     manufacturer: "Global Textile"
   },
   {
-    id: 52,
-    name: "Broderie turquoise fleurie",
-    description: "Tissu brodé turquoise avec motifs de fleurs blanches, une pièce élégante et rafraîchissante.",
+    id: 85,
+    name: "Bazin brodé vert olive à paillettes argentées",
+    description: "Bazin vert olive avec lignes et rayons en paillettes argentées créant un effet rayonnant sophistiqué.",
     category: "Brodé",
-    image: "/lovable-uploads/720f578d-5179-4f8c-b999-3a55be70e7c4.png",
+    image: "/lovable-uploads/5b1dd3b5-ec7e-4801-a761-896baf6ca725.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 86,
+    name: "Bazin brodé vert émeraude à motifs dorés",
+    description: "Bazin vert émeraude éclatant avec motifs ondulés et lignes dorées créant un effet royal et luxueux.",
+    category: "Brodé",
+    image: "/lovable-uploads/b8649ab5-e80a-4135-bb5c-2f757cae11e5.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 87,
+    name: "Bazin brodé turquoise à motifs dorés",
+    description: "Bazin turquoise orné de broderies dorées et argentées créant des motifs organiques évoquant l'eau et les vagues.",
+    category: "Brodé",
+    image: "/lovable-uploads/abbc659c-3ad3-4aa7-a847-f3cc443f57a1.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 88,
+    name: "Bazin brodé jaune or à motifs multicolores",
+    description: "Bazin jaune or lumineux orné de broderies multicolores formant des motifs floraux et des feuillages stylisés.",
+    category: "Brodé",
+    image: "/lovable-uploads/71226fca-a3a6-4dfe-8406-cdec883075da.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 89,
+    name: "Bazin brodé violet à motifs dorés",
+    description: "Bazin violet royal orné de délicates broderies dorées formant des motifs ondulants et des lignes élégantes.",
+    category: "Brodé",
+    image: "/lovable-uploads/c5e150d1-0fa3-4029-8b4f-5e37c4089a1b.png",
+    manufacturer: "Global Textile"
+  },
+  {
+    id: 90,
+    name: "Bazin brodé rose à paillettes multicolores",
+    description: "Bazin rose tendre parsemé de paillettes multicolores créant un effet joyeux et festif pour des occasions spéciales.",
+    category: "Brodé",
+    image: "/lovable-uploads/f4c91d59-3883-4ec1-b939-8d211d0c3918.png",
     manufacturer: "Global Textile"
   }
 ];

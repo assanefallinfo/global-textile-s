@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // Data
@@ -10,6 +10,7 @@ import CategoryFilter from '@/components/product/CategoryFilter';
 import ProductCard from '@/components/product/ProductCard';
 import ProductCTA from '@/components/product/ProductCTA';
 import ProductHeading from '@/components/product/ProductHeading';
+import SocialLinks from '@/components/product/SocialLinks';
 
 // Types
 import { Product } from '@/types/product';
@@ -19,11 +20,21 @@ interface ProductsProps {
 }
 
 const Products = ({ showHeading = true }: ProductsProps) => {
+  // Récupérer toutes les catégories uniques des produits
+  const categories = ['Tout', ...Array.from(new Set(products.map(product => product.category)))];
+  
   const [activeCategory, setActiveCategory] = useState<string>("Tout");
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
   const navigate = useNavigate();
   
-  // Tous les produits seront affichés sans filtrage
-  const filteredProducts = products;
+  // Filtrer les produits lorsque la catégorie active change
+  useEffect(() => {
+    if (activeCategory === "Tout") {
+      setFilteredProducts(products);
+    } else {
+      setFilteredProducts(products.filter(product => product.category === activeCategory));
+    }
+  }, [activeCategory]);
   
   const handleProductClick = (productId: number) => {
     navigate(`/produits/${productId}`);
@@ -39,10 +50,13 @@ const Products = ({ showHeading = true }: ProductsProps) => {
         {/* Section Heading */}
         <ProductHeading showHeading={showHeading} />
         
-        {/* Filtre simplifié avec seulement "ARTICLES" */}
+        {/* Liens sociaux */}
+        <SocialLinks />
+        
+        {/* Filtre par catégorie */}
         <CategoryFilter 
-          categories={["Tout"]} 
-          activeCategory="Tout" 
+          categories={categories} 
+          activeCategory={activeCategory} 
           onCategoryChange={setActiveCategory} 
         />
         

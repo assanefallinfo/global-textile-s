@@ -1,8 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { Image, Tag } from 'lucide-react';
-import { Badge } from '@/components/ui/badge';
+import { Image } from 'lucide-react';
 
 interface Product {
   id: number;
@@ -43,21 +42,8 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
       <CardContent className="p-6">
         <div className="flex items-center justify-between gap-2 mb-2">
           <span className="text-xs font-medium text-gold uppercase tracking-wider">
-            {product.category}
+            Article
           </span>
-          
-          {product.manufacturer && (
-            <Badge variant="outline" className="text-xs bg-white">
-              {product.manufacturer.includes('Getzner') ? (
-                <span className="flex items-center gap-1">
-                  <Tag className="h-3 w-3" />
-                  {product.manufacturer}
-                </span>
-              ) : (
-                product.manufacturer
-              )}
-            </Badge>
-          )}
         </div>
         
         <h3 className="text-xl font-serif font-medium text-navy mt-2 mb-3">

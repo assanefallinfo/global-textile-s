@@ -15,8 +15,9 @@ interface RelatedProductsProps {
 const RelatedProducts = ({ currentProductId, currentProductCategory, products }: RelatedProductsProps) => {
   const navigate = useNavigate();
   
+  // Get 3 random products that aren't the current one
   const relatedProducts = products
-    .filter(p => p.category === currentProductCategory && p.id !== currentProductId)
+    .filter(p => p.id !== currentProductId)
     .slice(0, 3);
   
   if (relatedProducts.length === 0) {
@@ -54,7 +55,7 @@ const RelatedProducts = ({ currentProductId, currentProductCategory, products }:
             </div>
             <CardContent className="p-4">
               <span className="text-xs font-medium text-gold uppercase tracking-wider">
-                {relatedProduct.category}
+                Article
               </span>
               <h3 className="font-serif text-navy mt-2 mb-2">
                 Article

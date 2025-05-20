@@ -20,21 +20,17 @@ interface ProductsProps {
 }
 
 const Products = ({ showHeading = true }: ProductsProps) => {
-  // Récupérer toutes les catégories uniques des produits
-  const categories = ['Tout', ...Array.from(new Set(products.map(product => product.category)))];
+  // Simplify to just "Article"
+  const categories = ['Article'];
   
-  const [activeCategory, setActiveCategory] = useState<string>("Tout");
+  const [activeCategory, setActiveCategory] = useState<string>("Article");
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
   const navigate = useNavigate();
   
-  // Filtrer les produits lorsque la catégorie active change
+  // No need to filter products anymore
   useEffect(() => {
-    if (activeCategory === "Tout") {
-      setFilteredProducts(products);
-    } else {
-      setFilteredProducts(products.filter(product => product.category === activeCategory));
-    }
-  }, [activeCategory]);
+    setFilteredProducts(products);
+  }, []);
   
   const handleProductClick = (productId: number) => {
     navigate(`/produits/${productId}`);
@@ -53,7 +49,7 @@ const Products = ({ showHeading = true }: ProductsProps) => {
         {/* Liens sociaux */}
         <SocialLinks />
         
-        {/* Filtre par catégorie */}
+        {/* Filtre par catégorie - Simplified */}
         <CategoryFilter 
           categories={categories} 
           activeCategory={activeCategory} 

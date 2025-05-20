@@ -1,3 +1,3 @@
 
-import { getLongDescription } from './product/ProductDescriptions';
+import { getLongDescription } from '../components/product/ProductDescriptions';
 export { getLongDescription };

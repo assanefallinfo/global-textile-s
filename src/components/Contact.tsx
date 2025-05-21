@@ -94,7 +94,7 @@ const Contact = ({ showHeading = true }: ContactProps) => {
                   </svg>
                 } 
                 title="Heures d'ouverture" 
-                content="Lundi - Samedi: 9h00 - 19h00"
+                content="Lundi - Dimanche: 9h00 - 23h00"
               />
             </div>
             

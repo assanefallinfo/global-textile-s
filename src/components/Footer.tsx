@@ -72,6 +72,14 @@ const Footer = () => {
                   +221 77 967 78 88
                 </a>
               </li>
+              <li className="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-3 mt-1 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span className="text-white/70">
+                  Lundi - Dimanche: 9h00 - 23h00
+                </span>
+              </li>
             </ul>
           </div>
         </div>

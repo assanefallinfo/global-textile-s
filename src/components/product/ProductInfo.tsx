@@ -27,11 +27,11 @@ const ProductInfo = ({ product, longDescription, onDevisClick }: ProductInfoProp
       </div>
       
       <h3 className="text-3xl font-serif font-medium text-navy mt-2 mb-4">
-        Article
+        {product.name || "Article"}
       </h3>
       
       <p className="text-navy/70 mb-6">
-        Article
+        {product.description || "Article"}
       </p>
       
       <div className="mt-8">
